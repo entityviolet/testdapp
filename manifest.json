@@ -1,31 +1,27 @@
 {
   "name": "Ton AI Miner",
-  "short_name": "TonAI",
   "description": "A decentralized mining platform on the TON blockchain",
+  "url": "https://your-dapp-url.com", 
   "icons": [
     {
-      "src": "/logo192.png",
+      "src": "https://your-dapp-url.com/logo192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/logo512.png",
+      "src": "https://your-dapp-url.com/logo512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#ffffff",
-  "scope": "/",
-  "url": "https://your-app-url.com", 
-  "connect": {
-    "wallets": [
-      {
-        "name": "Ton Wallet",
-        "uri": "https://your-wallet-connect-url.com"
-      }
-    ]
-  }
+  "manifest_version": "0.1.0",
+  "network": "mainnet",
+  "platforms": [
+    {
+      "type": "web",
+      "js_bridge_key": "tonconnect",
+      "universal_link": "https://your-dapp-url.com",
+      "bridge_url": "https://bridge.tonapi.io/bridge"
+    }
+  ]
 }
