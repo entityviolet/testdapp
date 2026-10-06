@@ -1,0 +1,24 @@
+{
+  "name": "BaseFarmr Quest Stamp",
+  "description": "A stamp from the BaseFarmr portal: the collectible you receive for running a quest on Base. Non-custodial - you sign every transaction, we never hold your funds.",
+  "image": "https://raw.githubusercontent.com/entityviolet/testdapp/main/nfts/basefarmr-quest-stamp.png",
+  "external_url": "https://basefarmr.xyz/portal",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "BaseFarmr Quest Stamps"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Collectible"
+    },
+    {
+      "trait_type": "Custody",
+      "value": "Non-custodial"
+    }
+  ]
+}

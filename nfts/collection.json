@@ -1,0 +1,6 @@
+{
+  "name": "BaseFarmr Quest Stamps",
+  "description": "Collectibles earned by running portal quests on Base. Each stamp matches a signed quest record.",
+  "image": "https://raw.githubusercontent.com/entityviolet/testdapp/main/nfts/basefarmr-quest-stamp.png",
+  "external_url": "https://basefarmr.xyz/portal"
+}
